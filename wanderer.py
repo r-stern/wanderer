@@ -177,8 +177,6 @@ def intothewoods():
 	print "...Oh! Hello! Pardon my manners... it has been so long since anyone has come to these parts."
 	time.sleep(2)
 			
-
-
 def outofmaze():
 	print "good job, you made it out of the maze."
 	time.sleep(2)
