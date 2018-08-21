@@ -55,7 +55,7 @@ def main():
 	elif choice0 == 2:
 		choice1 = "into the woods"
 		print "you picked: into the woods"
-		#intothewoods()
+		intothewoods()
 	else:
 		print "well, that's pretty lame."
 		ending()
@@ -158,8 +158,25 @@ def litamatch(nomatches):
 		nomatches = nomatches - 1
 		#print "{} {}".format("the right decision was: + ", right_decision)
 		print "{} {}".format("# of matches you have left: ", nomatches)
-
 	outofmaze()
+
+# test this part!!!
+def intothewoods():
+	print "you enter the woods."
+	time.sleep(2)
+	print "the atmosphere is slowly becoming more and more mysterious."
+	time.sleep(2)
+	print "have you been here before?"
+	time.sleep(2)
+	print "or do the trees all look the same?"
+	time.sleep(2)
+	print "it's hard to tell."
+	time.sleep(2)
+	print "suddenly, you hear a voice..."
+	time.sleep(2)
+	print "...Oh! Hello! Pardon my manners... it has been so long since anyone has come to these parts."
+	time.sleep(2)
+			
 
 
 def outofmaze():
