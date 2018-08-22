@@ -174,9 +174,17 @@ def intothewoods():
 	time.sleep(2)
 	print "suddenly, you hear a voice..."
 	time.sleep(2)
-	print "...Oh! Hello! Pardon my manners... it has been so long since anyone has come to these parts."
+	print "\"...Oh! Hello! Pardon my manners... it has been so long since anyone has come to these parts.\""
 	time.sleep(2)
-			
+	print "you look around. who is that talking?"
+	time.sleep(2)
+	print "\"That said... what could you be doing here? There isn't much to see, or do.\""
+	time.sleep(2)
+	print "you look down. you see a small man, as tall as your shoe."
+	time.sleep(2)
+	print "he continues... \"Still, you still insist on going forward? Interesting.... you have piqued my interest, wanderer.\""
+	time.sleep(2)
+
 def outofmaze():
 	print "good job, you made it out of the maze."
 	time.sleep(2)
