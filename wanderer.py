@@ -1,5 +1,5 @@
 '''
-	author: rachel stern
+	author: rachel stern & jo ramaswamy
 	original version in c started on may 20 2018
 	python version started june 6 2018
 	last updated july 6 2018
@@ -180,10 +180,13 @@ def intothewoods():
 	time.sleep(2)
 	print "\"That said... what could you be doing here? There isn't much to see, or do.\""
 	time.sleep(2)
-	print "you look down. you see a small man, as tall as your shoe."
+	print "you look down, and see a small man, as tall as your shoe. he has a long beard and green hat. he reminds you of a wizard."
 	time.sleep(2)
 	print "he continues... \"Still, you still insist on going forward? Interesting.... you have piqued my interest, wanderer.\""
 	time.sleep(2)
+
+			
+
 
 def outofmaze():
 	print "good job, you made it out of the maze."
