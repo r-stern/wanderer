@@ -42,13 +42,14 @@ int main(){
 			
 	  		printw("> ...Oh! Hello! Pardon my manners... it has been so long since anyone has come to these parts.\n");
 			sleep(1);
-			
-			/* note to self: start here when translating to python */
+	
 			
 			printw("> That said... what could you be doing here? There isn't much to see, or do.\n");
 			sleep(1);
 			printw("> Still, you still insist on going forward? Interesting.... you have piqued my interest, wanderer.\n");
 			sleep(1);
+			
+			/* note to self: start translating to python here */
 			printw("> I like your moxie. For giving me some entertainment, you may have one of these items.\n");
 			printw("(Use 1, 2, or 3 keys to make a selection.)\n");
 			printw("You pick the:\n\t1. purple gem.\n\t2. shimmery cloak\n\t3. dusty tome\n");   
