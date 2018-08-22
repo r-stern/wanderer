@@ -185,9 +185,6 @@ def intothewoods():
 	print "he continues... \"Still, you still insist on going forward? Interesting.... you have piqued my interest, wanderer.\""
 	time.sleep(2)
 
-			
-
-
 def outofmaze():
 	print "good job, you made it out of the maze."
 	time.sleep(2)
