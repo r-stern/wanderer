@@ -160,7 +160,6 @@ def litamatch(nomatches):
 		print "{} {}".format("# of matches you have left: ", nomatches)
 	outofmaze()
 
-# test this part!!!
 def intothewoods():
 	print "you enter the woods."
 	time.sleep(2)
