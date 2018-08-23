@@ -1,5 +1,5 @@
 '''
-	author: rachel stern & jo ramaswamy
+	author: rachel stern
 	original version in c started on may 20 2018
 	python version started june 6 2018
 	last updated july 6 2018
@@ -33,7 +33,7 @@ def main():
 	elif choice0 == 3:
 		choice1 = "the strange map"
 	else:
-		print "wtf? that's not even an option."
+		print "what? that's not even an option."
 		ending()
 		return;
 	print "you picked: " + choice1
@@ -184,6 +184,23 @@ def intothewoods():
 	time.sleep(2)
 	print "he continues... \"Still, you still insist on going forward? Interesting.... you have piqued my interest, wanderer.\""
 	time.sleep(2)
+	print "\"I like your moxie. For giving me some entertainment, you may have one of these items.\""
+	time.sleep(2)
+	choice0 = input("choose with 1, 2, or 3.")
+	time.sleep(2)
+	print "which would you like? 1: the purple gem, 2: the shimmery cloak, or 3: the dusty tome?"
+	time.sleep(2)
+	if choice0 == 1:
+		print "you picked the purple gem."
+		time.sleep(2)
+		print "\"ah, that's a pretty thing, isn't it? But I'm not sure it has much purpose...\", he says."
+		time.sleep(2)
+		print "it's pretty heavy, despite being so small."
+		time.sleep(2)
+		inventory.append("purple gem")
+		print_inv(inventory)
+			
+
 
 def outofmaze():
 	print "good job, you made it out of the maze."
