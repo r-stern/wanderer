@@ -186,9 +186,9 @@ def intothewoods():
 	time.sleep(2)
 	print "\"I like your moxie. For giving me some entertainment, you may have one of these items.\""
 	time.sleep(2)
-	choice0 = input("choose with 1, 2, or 3.")
-	time.sleep(2)
 	print "which would you like? 1: the purple gem, 2: the shimmery cloak, or 3: the dusty tome?"
+	time.sleep(2)
+	choice0 = input("choose with 1, 2, or 3.")
 	time.sleep(2)
 	if choice0 == 1:
 		print "you picked the purple gem."
@@ -199,8 +199,6 @@ def intothewoods():
 		time.sleep(2)
 		inventory.append("purple gem")
 		print_inv(inventory)
-			
-
 
 def outofmaze():
 	print "good job, you made it out of the maze."
