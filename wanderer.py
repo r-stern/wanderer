@@ -209,7 +209,30 @@ def intothewoods():
 		print "... it's kind of itchy."
 		time.sleep(2)
 		print_inv(inventory)
-	
+	if choice0 == 3:
+		print "you picked the dusty tome."
+		time.sleep(2)
+		print "\"My debut work! I can't say it sold very well... it didn't even get good reviews...\""
+		time.sleep(2)
+		inventory.append("dusty tome")
+		time.sleep(2)
+		print "... ah-choo!"
+		print_inv(inventory)
+	else:
+		print "what? that's not even a choice."
+		ending()
+	print "\"Well, i think you should be on your way now, wanderer.\""
+	sleep(2)
+	print "\"Good luck on your travels!\""
+	sleep(2)
+	print "..."
+	sleep(2)
+	print "............."
+	sleep(2)
+	print ".............................................."
+	sleep(2)
+	print "you keep walking forward..."
+	sleep(2)
 
 def outofmaze():
 	print "good job, you made it out of the maze."
