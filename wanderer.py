@@ -160,6 +160,7 @@ def litamatch(nomatches):
 		print "{} {}".format("# of matches you have left: ", nomatches)
 	outofmaze()
 
+# test this part!!!
 def intothewoods():
 	print "you enter the woods."
 	time.sleep(2)
@@ -198,6 +199,17 @@ def intothewoods():
 		time.sleep(2)
 		inventory.append("purple gem")
 		print_inv(inventory)
+	# test here !!!!!!!
+	if choice0 == 2:
+		print "you picked the shimmery cloak."
+		time.sleep(2)
+		print "\"I must say, I'm glad you picked that. It didn't match anything of mine, anyway.\""
+		time.sleep(2)
+		inventory.append("shimmery cloak")
+		print "... it's kind of itchy."
+		time.sleep(2)
+		print_inv(inventory)
+	
 
 def outofmaze():
 	print "good job, you made it out of the maze."
