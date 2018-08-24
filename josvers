@@ -62,7 +62,6 @@ int main(){
 				items[1] = "purple gem";			
 			}
 			
-			/* note to self: start here*/
 			else if (ch == 50) { 
 				printw("> I must say, I'm glad you picked that. It didn't match with any of my clothes.\n");
 				sleep(1);
@@ -71,7 +70,7 @@ int main(){
 				printw("(... It's kind of itchy.)\n");
 				items[1] = "shimmery cloak";
 			}
-			
+			/* note to self: start here*/
 			else if (ch == 51) {
 				printw("> My debut work! I can't say it sold very well though... it didn't even get good reviews...\n");
 				sleep(1);
