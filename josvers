@@ -70,7 +70,6 @@ int main(){
 				printw("(... It's kind of itchy.)\n");
 				items[1] = "shimmery cloak";
 			}
-			/* note to self: start here*/
 			else if (ch == 51) {
 				printw("> My debut work! I can't say it sold very well though... it didn't even get good reviews...\n");
 				sleep(1);
@@ -102,6 +101,7 @@ int main(){
 			sleep(3);
 			printw("(Press enter to continue.)\n");
 
+			/* note to self: start here! */
 			ch = getch();
 			if (ch == 13) {
 				printw("> You have been walking for quite a while.\n");
