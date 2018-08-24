@@ -1,8 +1,8 @@
 '''
 	author: rachel stern
 	original version in c started on may 20 2018
-	python version started august 24 2018
-	last updated july 6 2018
+	python version started june 6 2018
+	last updated august 2018
 '''
 
 import time
