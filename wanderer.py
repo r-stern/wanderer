@@ -2,7 +2,7 @@
 	author: rachel stern
 	original version in c started on may 20 2018
 	python version started june 6 2018
-	last updated august 2018
+	last updated july 6 2018
 '''
 
 import time
@@ -221,18 +221,20 @@ def intothewoods():
 	else:
 		print "what? that's not even a choice."
 		ending()
-	print "\"Well, i think you should be on your way now, wanderer.\""
-	sleep(2)
+	print "\"Well, I think you should be on your way now, wanderer.\""
+	time.sleep(2)
 	print "\"Good luck on your travels!\""
-	sleep(2)
+	time.sleep(2)
 	print "..."
-	sleep(2)
+	time.sleep(2)
 	print "............."
-	sleep(2)
+	time.sleep(2)
 	print ".............................................."
-	sleep(2)
+	time.sleep(2)
 	print "you keep walking forward..."
-	sleep(2)
+	time.sleep(2)
+	# ocean route now	
+
 
 def outofmaze():
 	print "good job, you made it out of the maze."
