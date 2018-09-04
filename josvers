@@ -100,8 +100,7 @@ int main(){
 
 			sleep(3);
 			printw("(Press enter to continue.)\n");
-
-			/* note to self: start here! */
+			
 			ch = getch();
 			if (ch == 13) {
 				printw("> You have been walking for quite a while.\n");
@@ -110,6 +109,8 @@ int main(){
 				sleep(3);
 				printw("> You should choose a path.\n");
 				sleep(2);
+				
+				/* START HERE NOTE TO SELF */
 				printw("(Use 1, 2, or 3 keys to make a selection.)\n");
 				printw("\t1. Left. You catch a faint hint of an ocean breeze.\n\t2. Straight. You see the roofs of houses in the distance.\n\t3. Right. The road ahead seems difficult, with sharp thorns and imposing boulders.\n");
 				ch = getch();
