@@ -2,7 +2,7 @@
 	author: rachel stern
 	original version in c started on may 20 2018
 	python version started june 6 2018
-	last updated july 6 2018
+	last updated september 4 2018
 '''
 
 import time
@@ -224,16 +224,7 @@ def intothewoods():
 	print "\"Well, I think you should be on your way now, wanderer.\""
 	time.sleep(2)
 	print "\"Good luck on your travels!\""
-	time.sleep(2)
-	print "..."
-	time.sleep(2)
-	print "............."
-	time.sleep(2)
-	print ".............................................."
-	time.sleep(2)
-	print "you keep walking forward..."
-	time.sleep(2)
-	# ocean route now	
+	forkinroad()
 
 
 def outofmaze():
@@ -243,5 +234,30 @@ def outofmaze():
 	time.sleep(2)
 	inventory.pop()
 	print_inv(inventory)
+	time.sleep(2)
+	print "you keep walking forward, and suddenly you see light..."
+	time.sleep(2)
+	forkinroad()
+
+
+def forkinroad()
+	time.sleep(2)
+	print "..."
+	time.sleep(2)
+	print "............."
+	time.sleep(2)
+	print ".............................................."
+	time.sleep(2)
+	print "you keep walking forward..."
+	time.sleep(5)
+	print "you have been walking for quite a while now."
+	time.sleep(2)
+	print "you stop for a moment."
+	time.sleep(2)
+	print "a bit ahead of you, it looks like there is a fork in the road."
+	time.sleep(2)
+	print "you should choose a path."
+	time.sleep(2)
+
 
 main()
