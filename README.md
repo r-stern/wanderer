@@ -1,5 +1,5 @@
 # wanderer
-text based adventure game, collaboration with @j-swamy
+A text based adventure game coded in Python, built with @j-swamy
 
 started: 6/6/18
 
